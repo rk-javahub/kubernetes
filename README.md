@@ -14,3 +14,8 @@
 10. kubectl get namespace (To get namespace details)
 11. kubectl get deployment (To get deployment details)
 12. kubectl get services (To get the services)
+13. kubectl delete all --all (To delete all)
+14. kubectl create deployment nginx --image=nginx (Crete deploymnet using nginx image)
+15. kubectl get all -o wide (To get more information)
+16. kubectl describe deployment nginx (To get complete details about deployment)
+17. kubectl describe pod nginx-676b6c5bbc-l929k (To get complete details about pod)
