@@ -19,3 +19,7 @@
 15. kubectl get all -o wide (To get more information)
 16. kubectl describe deployment nginx (To get complete details about deployment)
 17. kubectl describe pod nginx-676b6c5bbc-l929k (To get complete details about pod)
+18. kubectl logs nginx-676b6c5bbc-l929k (To check the logs of pods)
+19. kubectl exec -it nginx-676b6c5bbc-l929k -- /bin/bash (To go inside pods to check issues)
+20. kubectl edit deployment (To change the deployment configuration. For example: to change the deployment replicas)
+21. 
